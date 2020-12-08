@@ -27,7 +27,12 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['combat-carpentry.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = [
+    'https://combat-carpentry.herokuapp.com/',
+    'combat-carpentry.herokuapp.com',
+    '127.0.0.1',
+    'dashboard.heroku.com'
+]
 
 
 # Application definition
