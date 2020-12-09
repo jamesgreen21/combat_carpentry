@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'https://combat-carpentry.herokuapp.com/',
     'combat-carpentry.herokuapp.com',
     '127.0.0.1',
-    'dashboard.heroku.com'
+    'dashboard.heroku.com',
 ]
 
 
